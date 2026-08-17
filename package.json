@@ -1,0 +1,25 @@
+{
+  "name": "@wachiramickey/07-ui",
+  "version": "1.0.0",
+  "description": "A reusable premium corporate consultancy UI kit inspired by the PrimeLink Hawema Enterprise website design.",
+  "type": "module",
+  "main": "src/primlink-ui.js",
+  "style": "src/primlink-ui.css",
+  "scripts": {
+    "start": "npx http-server . -p 7070 -c-1",
+    "check": "node --check src/primlink-ui.js"
+  },
+  "keywords": [
+    "ui-kit",
+    "design-system",
+    "corporate",
+    "consultancy",
+    "marketing-site",
+    "css"
+  ],
+  "author": "wachiramickey",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

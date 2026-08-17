@@ -1,0 +1,69 @@
+<!-- Contact page recipe using 07 UI -->
+
+<section class="ui-inner-hero">
+  <img class="ui-inner-hero__image" src="your-contact-hero.jpg" alt="Professional office or city visual">
+  <div class="ui-container ui-inner-hero__content">
+    <nav class="ui-breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">/</span>
+      <span>Contact Us</span>
+    </nav>
+    <h1>Contact Us</h1>
+  </div>
+</section>
+
+<section class="ui-section ui-section--light">
+  <div class="ui-container">
+    <div class="ui-grid ui-grid--4">
+      <article class="ui-contact-card">
+        <span class="ui-icon-badge"><svg aria-hidden="true"><use href="src/icons.svg#phone"></use></svg></span>
+        <h3>Phone</h3>
+        <p>+254 700 000000</p>
+      </article>
+      <article class="ui-contact-card">
+        <span class="ui-icon-badge ui-icon-badge--accent"><svg aria-hidden="true"><use href="src/icons.svg#mail"></use></svg></span>
+        <h3>Email</h3>
+        <p>info@example.com</p>
+      </article>
+      <article class="ui-contact-card">
+        <span class="ui-icon-badge"><svg aria-hidden="true"><use href="src/icons.svg#pin"></use></svg></span>
+        <h3>Location</h3>
+        <p>Nairobi, Kenya</p>
+      </article>
+      <article class="ui-contact-card">
+        <span class="ui-icon-badge ui-icon-badge--accent"><svg aria-hidden="true"><use href="src/icons.svg#home"></use></svg></span>
+        <h3>Website</h3>
+        <p>www.example.com</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="ui-section">
+  <div class="ui-container ui-split">
+    <form class="ui-form">
+      <div class="ui-form__row">
+        <div class="ui-field">
+          <label for="contact-name">Name</label>
+          <input id="contact-name" name="name" autocomplete="name">
+        </div>
+        <div class="ui-field">
+          <label for="contact-email">Email</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email">
+        </div>
+      </div>
+      <div class="ui-field">
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message"></textarea>
+      </div>
+      <button class="ui-button ui-button--accent" type="submit">Send Message</button>
+    </form>
+    <div class="ui-map-visual">
+      <div>
+        <svg aria-hidden="true"><use href="src/icons.svg#pin"></use></svg>
+        <strong>Nairobi, Kenya</strong>
+        <span>Map/location visual placeholder</span>
+      </div>
+    </div>
+  </div>
+</section>

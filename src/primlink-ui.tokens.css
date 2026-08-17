@@ -1,0 +1,27 @@
+:root {
+  --ui-primary: #062B55;
+  --ui-primary-2: #07305F;
+  --ui-footer: #03203F;
+  --ui-accent: #36A853;
+  --ui-accent-strong: #287A3E;
+  --ui-accent-soft: #E9F7ED;
+  --ui-text: #14213D;
+  --ui-body: #4A5568;
+  --ui-muted: #718096;
+  --ui-section: #F7F9FC;
+  --ui-card: #FFFFFF;
+  --ui-border: #E5EAF0;
+  --ui-white: #FFFFFF;
+  --ui-shadow: 0 8px 24px rgba(6, 43, 85, 0.08);
+  --ui-shadow-lg: 0 18px 44px rgba(6, 43, 85, 0.14);
+  --ui-overlay: linear-gradient(90deg, rgba(3, 32, 63, 0.88), rgba(3, 32, 63, 0.55), rgba(3, 32, 63, 0.15));
+  --ui-radius-sm: 8px;
+  --ui-radius: 14px;
+  --ui-radius-lg: 18px;
+  --ui-container: 1220px;
+  --ui-heading-font: "Montserrat", sans-serif;
+  --ui-body-font: "Inter", sans-serif;
+  --ui-h1: clamp(34px, 5vw, 56px);
+  --ui-h2: clamp(28px, 3.2vw, 36px);
+  --ui-h3: clamp(18px, 2vw, 22px);
+}

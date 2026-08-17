@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>07 UI — Corporate Consultancy Kit</title>
+    <meta name="description" content="Reusable corporate consultancy UI kit with navy, green, image-led sections, cards, CTAs, forms, and footer patterns.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/primlink-ui.css">
+  </head>
+  <body>
+    <svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+      <use href="src/icons.svg#check"></use>
+    </svg>
+
+    <header class="ui-header" data-ui-header>
+      <div class="ui-container ui-header__inner">
+        <a class="ui-brand" href="#">
+          <img src="src/logo.svg" alt="PrimeLink Hawema Enterprise">
+        </a>
+        <button class="ui-menu-button" type="button" aria-expanded="false" aria-controls="demo-nav" data-ui-menu-button>
+          <svg aria-hidden="true"><use href="src/icons.svg#menu"></use></svg>
+          <span data-ui-menu-label>Menu</span>
+        </button>
+        <nav class="ui-nav" id="demo-nav" aria-label="Main navigation" data-ui-nav>
+          <a href="#" aria-current="page">Home</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#why">Why Choose Us</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="ui-button" href="#contact">Get a Quote</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="ui-hero" aria-label="Hero carousel" data-ui-carousel>
+        <article class="ui-hero__slide is-active" data-ui-slide>
+          <img class="ui-hero__image" src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1800&q=80" alt="Professional consultants reviewing strategy in a modern office">
+          <div class="ui-container ui-hero__content">
+            <div class="ui-hero__copy">
+              <span class="ui-eyebrow ui-eyebrow--light">Corporate UI Kit</span>
+              <h1>Connecting Opportunities. Delivering Excellence.</h1>
+              <p>Reusable website patterns for consultancies, development partners, service firms, and operational business brands.</p>
+              <div class="ui-button-row">
+                <a class="ui-button ui-button--accent" href="#services">Explore Components</a>
+                <a class="ui-button ui-button--outline-light" href="#contact">Start a Project</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="ui-hero__slide" data-ui-slide>
+          <img class="ui-hero__image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1800&q=80" alt="Analytics dashboard used for reporting and research decisions">
+          <div class="ui-container ui-hero__content">
+            <div class="ui-hero__copy">
+              <span class="ui-eyebrow ui-eyebrow--light">Evidence-led design</span>
+              <h2>Clean sections for measurable results.</h2>
+              <p>Use compact hero, service, project, value, CTA, form, and footer components to build premium websites quickly.</p>
+              <div class="ui-button-row">
+                <a class="ui-button ui-button--accent" href="#projects">View Patterns</a>
+                <a class="ui-button ui-button--outline-light" href="DESIGN-PATTERNS.md">Read Guide</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="ui-hero__slide" data-ui-slide>
+          <img class="ui-hero__image" src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1800&q=80" alt="Logistics and business support warehouse operations">
+          <div class="ui-container ui-hero__content">
+            <div class="ui-hero__copy">
+              <span class="ui-eyebrow ui-eyebrow--light">Image-led layouts</span>
+              <h2>Professional patterns that travel well.</h2>
+              <p>Swap colors, logos, content, and photos while preserving the premium consultancy structure and rhythm.</p>
+              <div class="ui-button-row">
+                <a class="ui-button ui-button--accent" href="#why">Why this system</a>
+                <a class="ui-button ui-button--outline-light" href="#contact">Use the Kit</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="ui-hero__dots" aria-label="Hero slides">
+          <button class="ui-hero__dot is-active" type="button" aria-label="Show slide 1" data-ui-slide-dot></button>
+          <button class="ui-hero__dot" type="button" aria-label="Show slide 2" data-ui-slide-dot></button>
+          <button class="ui-hero__dot" type="button" aria-label="Show slide 3" data-ui-slide-dot></button>
+        </div>
+      </section>
+
+      <section class="ui-section" id="services">
+        <div class="ui-container">
+          <div class="ui-section-title">
+            <span class="ui-eyebrow">Components</span>
+            <h2>Service cards for fast scanning.</h2>
+            <p>Use icon-led cards for capability overviews, departments, offers, or landing-page feature summaries.</p>
+            <span class="ui-underline" aria-hidden="true"></span>
+          </div>
+          <div class="ui-grid ui-grid--4">
+            <article class="ui-service-card" data-ui-reveal>
+              <span class="ui-icon-badge"><svg aria-hidden="true"><use href="src/icons.svg#chart"></use></svg></span>
+              <h3>MEAL</h3>
+              <p>Monitoring, evaluation, learning, assessments, dashboards, and reporting.</p>
+            </article>
+            <article class="ui-service-card" data-ui-reveal>
+              <span class="ui-icon-badge ui-icon-badge--accent"><svg aria-hidden="true"><use href="src/icons.svg#search"></use></svg></span>
+              <h3>Research</h3>
+              <p>Surveys, baseline studies, endline studies, KIIs, FGDs, and analysis.</p>
+            </article>
+            <article class="ui-service-card" data-ui-reveal>
+              <span class="ui-icon-badge"><svg aria-hidden="true"><use href="src/icons.svg#training"></use></svg></span>
+              <h3>Training</h3>
+              <p>Workshops, capacity building, organizational learning, and coaching.</p>
+            </article>
+            <article class="ui-service-card" data-ui-reveal>
+              <span class="ui-icon-badge ui-icon-badge--accent"><svg aria-hidden="true"><use href="src/icons.svg#truck"></use></svg></span>
+              <h3>Logistics</h3>
+              <p>Transport, delivery coordination, fleet support, and business operations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ui-section ui-section--light">
+        <div class="ui-container ui-split">
+          <div class="ui-split__panel" data-ui-reveal>
+            <span class="ui-eyebrow ui-eyebrow--light">Split Panel</span>
+            <h2>Use story blocks to build trust quickly.</h2>
+            <p>This pattern works well for about previews, company introductions, founder notes, capability summaries, or service explanations.</p>
+            <a class="ui-button ui-button--accent" href="patterns/marketing-home.html">Copy Pattern</a>
+          </div>
+          <div class="ui-image-frame" data-ui-reveal>
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80" alt="Modern office environment for a professional consultancy">
+          </div>
+        </div>
+      </section>
+
+      <section class="ui-section" id="projects">
+        <div class="ui-container">
+          <div class="ui-section-title">
+            <span class="ui-eyebrow">Projects</span>
+            <h2>Proof cards with image, meta, and outcome.</h2>
+            <p>Good for previous work, case studies, programme assignments, or portfolio highlights.</p>
+            <span class="ui-underline" aria-hidden="true"></span>
+          </div>
+          <div class="ui-grid ui-grid--3">
+            <article class="ui-project-card" data-ui-reveal>
+              <div class="ui-project-card__image">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Dashboard reporting workspace">
+              </div>
+              <div class="ui-project-card__body">
+                <h3>Digital Data Dashboard</h3>
+                <dl class="ui-meta-list">
+                  <div><dt>Client</dt><dd>NGO Partner</dd></div>
+                  <div><dt>Location</dt><dd>Kisumu</dd></div>
+                  <div><dt>Period</dt><dd>2026</dd></div>
+                </dl>
+                <p>Created a reporting dashboard for improved data visibility and decisions.</p>
+              </div>
+            </article>
+            <article class="ui-project-card" data-ui-reveal>
+              <div class="ui-project-card__image">
+                <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80" alt="Team running a programme review meeting">
+              </div>
+              <div class="ui-project-card__body">
+                <h3>Programme Evaluation</h3>
+                <dl class="ui-meta-list">
+                  <div><dt>Client</dt><dd>Development Partner</dd></div>
+                  <div><dt>Location</dt><dd>Kenya</dd></div>
+                  <div><dt>Period</dt><dd>2026</dd></div>
+                </dl>
+                <p>Assessed performance, impact, sustainability, and implementation learning.</p>
+              </div>
+            </article>
+            <article class="ui-project-card" data-ui-reveal>
+              <div class="ui-project-card__image">
+                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80" alt="Consultants shaking hands after a project meeting">
+              </div>
+              <div class="ui-project-card__body">
+                <h3>Capacity Support</h3>
+                <dl class="ui-meta-list">
+                  <div><dt>Client</dt><dd>Institution</dd></div>
+                  <div><dt>Location</dt><dd>Nairobi</dd></div>
+                  <div><dt>Period</dt><dd>2026</dd></div>
+                </dl>
+                <p>Delivered practical training and implementation support for teams.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ui-section ui-section--light" id="why">
+        <div class="ui-container ui-split ui-split--reverse">
+          <div class="ui-image-frame" data-ui-reveal>
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1400&q=80" alt="Professional team collaborating in a meeting">
+          </div>
+          <div data-ui-reveal>
+            <span class="ui-eyebrow">Why Choose Us</span>
+            <h2>A repeatable structure for premium service brands.</h2>
+            <p>Pair one strong visual with a practical checklist to make a benefits section feel credible without becoming text-heavy.</p>
+            <ul class="ui-check-list">
+              <li><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Professional and client-focused delivery.</li>
+              <li><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Clean hierarchy, compact sections, and strong scan paths.</li>
+              <li><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Reusable tokens for color, spacing, radius, and shadows.</li>
+              <li><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Responsive cards, forms, headers, and CTAs.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="ui-section">
+        <div class="ui-container">
+          <div class="ui-section-title">
+            <span class="ui-eyebrow">Values</span>
+            <h2>Small pills for brand principles.</h2>
+            <span class="ui-underline" aria-hidden="true"></span>
+          </div>
+          <div class="ui-pills">
+            <span class="ui-pill"><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Integrity</span>
+            <span class="ui-pill"><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Excellence</span>
+            <span class="ui-pill"><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Accountability</span>
+            <span class="ui-pill"><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Innovation</span>
+            <span class="ui-pill"><svg aria-hidden="true"><use href="src/icons.svg#check"></use></svg>Client Focus</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="ui-cta">
+        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1800&q=80" alt="" aria-hidden="true">
+        <div class="ui-container ui-cta__inner">
+          <div>
+            <h2>Ready to reuse this design language?</h2>
+            <p>Copy the source files, adjust your tokens, and build consistent corporate websites faster.</p>
+          </div>
+          <div class="ui-button-row">
+            <a class="ui-button ui-button--accent" href="README.md">Read Setup</a>
+            <a class="ui-button ui-button--outline-light" href="DESIGN-PATTERNS.md">Pattern Guide</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="ui-section ui-section--light" id="contact">
+        <div class="ui-container ui-split">
+          <form class="ui-form" data-ui-reveal>
+            <div class="ui-form__row">
+              <div class="ui-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" autocomplete="name">
+              </div>
+              <div class="ui-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email">
+              </div>
+            </div>
+            <div class="ui-field">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option>Website Design</option>
+                <option>Consultancy Website</option>
+                <option>Corporate UI System</option>
+              </select>
+            </div>
+            <div class="ui-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <button class="ui-button ui-button--accent" type="button">Send Message</button>
+          </form>
+          <div class="ui-map-visual" data-ui-reveal>
+            <div>
+              <svg aria-hidden="true"><use href="src/icons.svg#pin"></use></svg>
+              <strong>Nairobi, Kenya</strong>
+              <span>Map/location visual placeholder</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="ui-footer">
+      <div class="ui-container ui-footer__grid">
+        <div class="ui-footer__brand">
+          <img src="src/logo.svg" alt="PrimeLink Hawema Enterprise">
+          <p>Connecting Opportunities. Delivering Excellence.</p>
+          <div class="ui-socials" aria-label="Social links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="WhatsApp">w</a>
+            <a href="#" aria-label="X / Twitter">x</a>
+          </div>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#why">Why Choose Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>+254 758 449034</li>
+            <li>info@example.com</li>
+            <li>Nairobi, Kenya</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Use For</h3>
+          <ul>
+            <li>Consultancies</li>
+            <li>NGOs</li>
+            <li>Business services</li>
+            <li>Training firms</li>
+          </ul>
+        </div>
+      </div>
+      <div class="ui-footer__bottom">
+        <div class="ui-container">© 2026 07 UI. All Rights Reserved.</div>
+      </div>
+    </footer>
+
+    <script type="module" src="src/primlink-ui.js"></script>
+  </body>
+</html>
