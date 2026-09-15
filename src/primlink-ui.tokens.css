@@ -21,6 +21,7 @@
   --ui-container: 1220px;
   --ui-heading-font: "Montserrat", sans-serif;
   --ui-body-font: "Inter", sans-serif;
+  --ui-heading-tracking: 0.01em;
   --ui-h1: clamp(34px, 5vw, 56px);
   --ui-h2: clamp(28px, 3.2vw, 36px);
   --ui-h3: clamp(18px, 2vw, 22px);
